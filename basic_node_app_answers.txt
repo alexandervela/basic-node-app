@@ -1,0 +1,22 @@
+Exercises
+
+1. What is a Node module?
+
+A: A chunk of code that defines a set of functions that can be reused by exporting it to other files. Much like a JavaScript library.
+
+2. What is the main difference between exports and module.exports?
+
+A: Module.exports assigns an object and exports is only a reference to module.exports and cannot assign or reassign the object.
+
+3. Why is using exports recommended?
+
+A: Exports is recommended to avoid any accidental assignments because it cannot reassign the object.
+
+Programming Questions
+
+4. Add two more functions, greetingSpanish and greetingIcelandic, in greeting.js.
+
+5. Utilize the two functions in main.js just like greetingEnglish and greetingJapanese.
+
+6. Create another Node module and import it into main.js. Your Node module should have at least two functions within it. Then, call a function from your Node module in main.js.
+Submit basic_node_app_answers.txt and your three .js files.
